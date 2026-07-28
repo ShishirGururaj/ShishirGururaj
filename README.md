@@ -63,22 +63,6 @@ Working with **Git, GitHub Actions, Agile/Scrum, code reviews, branching strateg
 
 ---
 
-## 🚀 Featured Projects
-
-### 🤖 AI-Powered Applications
-
-Building applications that combine modern software engineering with **LLMs, RAG, and intelligent workflows**.
-
-### 🎬 Movie Recommendation Engine
-
-A recommendation system built to explore personalized content discovery and recommendation logic.
-
-### 🌐 Full-Stack Web Applications
-
-Building responsive, API-driven applications with modern frontend and backend technologies.
-
----
-
 ## 🤝 Let's Connect
 
 I'm always interested in meeting engineers, builders, and people working on ambitious products.
