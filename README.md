@@ -77,8 +77,6 @@ A recommendation system built to explore personalized content discovery and reco
 
 Building responsive, API-driven applications with modern frontend and backend technologies.
 
-> More projects coming soon — I'm constantly building, experimenting, and shipping.
-
 ---
 
 ## 🤝 Let's Connect
