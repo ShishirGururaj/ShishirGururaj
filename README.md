@@ -1,6 +1,6 @@
 # 👋 Hey, I'm Shishir Gururaj
 
-## 🚀 Software Engineer | Full-Stack Developer | AI & Backend Builder
+## 🚀 Software Engineer | Full-Stack Engineer | AI & Backend Builder
 
 I build **scalable, production-minded software** across the stack - from intuitive React interfaces and robust Python APIs to PostgreSQL databases, cloud infrastructure, and AI-powered applications.
 
