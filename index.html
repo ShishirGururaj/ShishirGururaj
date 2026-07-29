@@ -1,231 +1,627 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Shishir Gururaj</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shishir Gururaj — Full-Stack Engineer</title>
+    <meta
+      name="description"
+      content="Shishir Gururaj — Full-Stack Software Engineer specializing in Python, FastAPI, React, and AI-enabled applications."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 fill=%22%235eebff%22>◈</text></svg>"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Fixed, blurred backdrop — stays put while content scrolls over it (depth-scroll effect) -->
+    <div class="bg-fixed">
+      <div class="bg-grid"></div>
+      <div class="bg-vignette"></div>
+      <div class="bg-orb o1"></div>
+      <div class="bg-orb o2"></div>
+      <div class="bg-orb o3"></div>
+    </div>
+    <div class="scanline"></div>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+    <div class="nav-outer">
+      <nav class="nav">
+        <span class="nav-brand">SHISHIR.G</span>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <a
+          href="assets/resume.pdf"
+          target="_blank"
+          rel="noopener"
+          class="nav-cta"
+          >Resume</a
+        >
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+          aria-controls="navMobile"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+      <div class="nav-mobile" id="navMobile">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a
+          href="assets/resume.pdf"
+          target="_blank"
+          rel="noopener"
+          class="nav-mobile-cta"
+          >View Resume</a
+        >
+      </div>
+    </div>
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Shishir Gururaj
-						</h1>
-						<p>Web Developer | Engineer | Student of Life
-						</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+    <main class="wrap-outer">
+      <div class="wrap">
+        <!-- HERO -->
+        <section class="hero" id="top">
+          <div class="hero-inner">
+            <div class="eyebrow">System status: online</div>
+            <h1 class="hero-name">SHISHIR GURURAJ</h1>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Get to know me better</a>
-					</header>
+            <div class="hero-grid">
+              <div>
+                <div class="hero-role">
+                  Software Engineer — Full-Stack · Cloud · AI/RAG
+                </div>
+                <p class="hero-desc">
+                  I build scalable web systems and AI-enabled applications —
+                  from FastAPI services to Retrieval-Augmented Generation
+                  pipelines. Currently building and shipping product at
+                  TagSkills EdTech, Bengaluru.
+                </p>
 
-				
+                <div class="hero-stats">
+                  <div class="hero-stat">
+                    <div class="k">Experience</div>
+                    <div class="v">2+ Years</div>
+                  </div>
+                  <div class="hero-stat">
+                    <div class="k">Location</div>
+                    <div class="v">Bengaluru, India</div>
+                  </div>
+                  <div class="hero-stat">
+                    <div class="k">Core Stack</div>
+                    <div class="v">Python / React / FastAPI</div>
+                  </div>
+                  <div class="hero-stat">
+                    <div class="k">Availability</div>
+                    <div class="v">Open to opportunities</div>
+                  </div>
+                </div>
 
-				<!-- Main -->
-					<div id="main">
+                <div class="btn-row">
+                  <a
+                    href="assets/resume.pdf"
+                    target="_blank"
+                    rel="noopener"
+                    class="btn btn-solid"
+                    >View Resume</a
+                  >
+                  <a href="assets/resume.pdf" download class="btn"
+                    >Download Resume ↓</a
+                  >
+                  <a href="#contact" class="btn">Get In Touch</a>
+                </div>
+              </div>
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									
-									<p> <b>Earnest, highly-motivated individual who likes to seek out new challenges, Is determined to grow professionally through continuous participation and learning. Looking for a riveting role in an esteemed organization that would help bring out the best in me</b></p>
-								</header>
-								<a href="#" class="image main"><img src="images/gitpic.jpg" alt="" /></a>
-								
-							</article>
+              <div class="orbit-wrap">
+                <div class="orbit-ring"></div>
+                <div class="orbit-ring r2"></div>
+                <div class="orbit-ring r3"></div>
+                <div class="orbit-sweep"></div>
+                <div class="orbit-node" style="top: 2%; left: 48%"></div>
+                <div class="orbit-node" style="top: 70%; left: 92%"></div>
+                <div class="orbit-node" style="top: 82%; left: 12%"></div>
+                <div class="orbit-core">
+                  <img
+                    src="assets/ShishirG.jpg"
+                    alt="Shishir Gururaj"
+                    onerror="
+                      this.style.display = 'none';
+                      this.nextElementSibling.style.display = 'flex';
+                    "
+                  />
+                  <div
+                    class="ph-fallback"
+                    style="
+                      display: none;
+                      flex-direction: column;
+                      align-items: center;
+                    "
+                  >
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.2"
+                    >
+                      <circle cx="12" cy="8" r="4" />
+                      <path d="M4 20c0-4 4-6 8-6s8 2 8 6" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-						<!-- Posts -->
-							<section class="education">
-								<p><h1><b>EDUCATION</b></h1></p>
-								<article>
-									<header>
-										<span class="date"><b>September 2022 - March 2024</b></span>
-										<h2><a href="https://www.pdx.edu/">Portland State University
-										</a></h2>
-										<h4><b>Portland, OR</b></h4>
-									</header>
-									
-									<p><b>Master of Science in Computer Science</b></p>
-								</article>
-								<article>
-									<header>
-										<span class="date"><b>August 2016 - August 2020</b></span>
-										<h2><a href="https://vtu.ac.in/en/">Visvesvaraya Technological University
-										</a></h2>
-										<h4>Belgaum, Karnataka, India</h4>
-									</header>
-									<p><b>Bachelor of Engineering in Information Science and Engineering</b></p>
-								</article>
-							</section>
-							<section class="Work Experience">
-								<p><h1><b>Work Experience
-								</b></h1></p>
-								<article>
-									<header>
-										<span class="date"><b>April 2021 - December 2021</b></span>
-										<h2><a href="https://www.parvamm.com/">ParvaM ConsulTech. Pvt. Ltd.
-										</a></h2>
-										<h4><b>Bangalore, Karnataka, India</b></h4>
-									</header>
-									
-									<p><b>Designed, devloped an Android application using Java and Kotlin to facilitate day-to-day operations of an Organ Donor Center
-										  Designed, developed an automation feature , that enchanced handling service requests  by 50%<br>
-										  Designed, developed and maintained Restful APIs that handled 100+ concurrent service requests
-									</b></p>
-								</article>
-								<article>
-									<header>
-										<span class="date"><b>July 2019 - August 2019</b></span>
-										<h2><a href="https://xcelerator.ninja/">Xcelerator
-										</a></h2>
-										<h4>Bangalore, Karnataka, India</h4>
-									</header>
-									<p><b>Led a team of 4 developers in designing and developing a movie recommendation engine<br>
-										  Collaborated with 3 internal functional teams for application integration and testing<br>
-										  Mined insights from MovieLens wxtensively for average consumer preferences
-									</b></p>
-								</article>
-							</section>
-							<section>
-								<h1 style="text-align: center ;">PROJECTS AND RESUME</h1>
-							</section>
-							<section class="posts">
-								<article>
-									<header>
-										<span class="date"><b>September 2019 - May 2020</b></span>
-										<h2><a href="#">Virtual-Eye
-										</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/virtualeye.jpg" alt="" /></a>
-									<p><b>A virtual navigation system for the visually impaired through IoT and Machine learning -
-									   Coupled with TensorFlow and Raspebrry Pi for object and environment detection and identification,
-									   Incorporated with Google Text-to-speech for live audio feedback and Twilio for SOS, developed in
-									   collaboration with Visually impaired individuals and NGOs for suggestion and feedback on design, development and testing</b></p>
-									<ul class="actions special">
-										<li><a href="https://github.com/ShishirGururaj/Virtual-Eye" class="button">In the flesh</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date"><b>September 2019 - November 2019</b></span>
-										<h2><a href="#">Foodie</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/foodie.jpg" alt="" /></a>
-									<p><b>A full-stack web application to facilitate online food ordering and delivery services, developed in
-									   collaboration with local food vendors for suggestions and feedback about the application</b></p>
-									<ul class="actions special">
-										<li><a href="https://github.com/ShishirGururaj/Foodie" class="button">In the Flesh</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">July 2019</span>
-										<h2><a href="#">Spotlight</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/spotlight.jpg" alt="" /></a>
-									<p><b>A web application which serves as a movie recommendation engine, developed in collaboration with
-										Mined insights from MovieLens extensively for average consumer preferences</b></p>
-									<ul class="actions special">
-										<li><a href="https://github.com/ShishirGururaj/Spotlight" class="button">In the Flesh</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">March 2019 - May 2019</span>
-										<h2><a href="#">Ferry4U</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/ferry.jpg" alt="" /></a>
-									<p><b>A reservation system to facilitate day-to-day transactions of ferry service providers, developed in
-									   collaboration with local ferry service providers for inputs and critique about the system</b></p>
-									<ul class="actions special">
-										<li><a href="https://github.com/ShishirGururaj/Ferry4U" class="button">In the Flesh</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">September 2018 - November 2018</span>
-										<h2><a href="#">YourTutor</h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/yourtutor.jpg" alt="" /></a>
-									<p><b>A full-stack web application to facilitate private tutoring services, developed in
-									   collaboration with local teachers and students for suggestions and feedback about the application</b></p>
-									<ul class="actions special">
-										<li><a href="https://github.com/ShishirGururaj/YourTutor" class="button">In the Flesh</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-	
-										<h2>RESUME
-										</h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/resume.jpg" alt="" /></a>
-									
-									<ul class="actions special">
-										<li><a href="Shishir_Gururaj_Resume.pdf" class="button">Download Resume</a></li>
-									</ul>
-								</article>
-							</section>
-							
+          <div class="scroll-cue">
+            <span>Scroll</span><span class="line"></span>
+          </div>
+        </section>
 
-						
+        <!-- ABOUT -->
+        <section class="section reveal" id="about">
+          <div class="section-head">
+            <div class="eyebrow">Identity</div>
+            <h2 class="section-title">About</h2>
+            <p class="section-sub">
+              Background, credentials, and current toolkit.
+            </p>
+          </div>
 
-					</div>
+          <div class="about-grid">
+            <div>
+              <div class="about-photo">
+                <img
+                  src="assets/ShishirGururajProfilePicture.jpg"
+                  alt="Shishir Gururaj"
+                  onerror="
+                    this.style.display = 'none';
+                    this.nextElementSibling.style.display = 'flex';
+                  "
+                />
+                <div class="ph-fallback">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.2"
+                  >
+                    <circle cx="12" cy="8" r="4" />
+                    <path d="M4 20c0-4 4-6 8-6s8 2 8 6" />
+                  </svg>
+                </div>
+              </div>
+              <div class="about-meta">
+                <div class="row">
+                  <span>Based in</span><span>Bengaluru, Karnataka, India</span>
+                </div>
+                <div class="row">
+                  <span>Currently</span
+                  ><span>Software Engineer @ TagSkills EdTech</span>
+                </div>
+                <div class="row">
+                  <span>Open to</span
+                  ><span>Full-stack · Cloud · AI Engineering</span>
+                </div>
+              </div>
+            </div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>Portland, OR
-								</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="tel:971-427-8340">(971) 427-8340</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="mailto:sgururaj@pdx.edu">sgururaj@pdx.edu</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									
-									<li><a href="https://www.linkedin.com/in/shishir-gururaj/" class="icon brands alt fa-linkedin"><span class="label">Facebook</span></a></li>
-									
-									<li><a href="https://github.com/ShishirGururaj" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="https://www.instagram.com/shishirgururaj/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="https://twitter.com/GururajShishir" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
+            <div>
+              <div class="bio">
+                <p>I build software that has to work beyond the demo.</p>
+                <p>
+                  My focus is backend and full-stack engineering — designing
+                  APIs, data workflows, cloud infrastructure, and AI-powered
+                  systems that can survive contact with real users. I've built
+                  across the stack with Python, FastAPI, React, TypeScript,
+                  PostgreSQL, Docker, and GCP, and I've worked with
+                  Retrieval-Augmented Generation and LLM integrations to turn AI
+                  from a feature on a roadmap into something people can actually
+                  use.
+                </p>
+                <p>
+                  I earned my Master's in Computer Science from
+                  <strong>Portland State University</strong> in the
+                  <strong>U.S.</strong> and have engineering
+                  <strong
+                    >experience spanning both U.S. and Indian
+                    environments.</strong
+                  >
+                  Today, I'm building learner- and admin-facing products at
+                  <strong>TagSkills EdTech</strong>, working from FastAPI
+                  services and PostgreSQL-backed systems to React/TypeScript
+                  interfaces and AI-enabled features.
+                </p>
+                <p>
+                  I care about systems that are fast, reliable, maintainable,
+                  and — when AI is involved — useful enough that people keep
+                  coming back to them.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Shishir Gururaj</li><li>Inspiration: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
+        <!-- EDUCATION -->
+        <section class="section reveal" id="education">
+          <div class="section-head">
+            <div class="eyebrow">Credentials</div>
+            <h2 class="section-title">Education</h2>
+          </div>
 
-			</div>
+          <div class="timeline timeline-compact">
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-timestamp">[ September 2022 — March 2024 ]</div>
+              <div class="tl-role">
+                Master of Sicence in Computer Science
+                <span class="tl-flag">USA</span>
+              </div>
+              <div class="tl-org">
+                Portland State University · Portland, OR, USA
+              </div>
+            </div>
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-timestamp">[ August 2016 — October 2020 ]</div>
+              <div class="tl-role">
+                Bachelor of Engineering in Information Science
+              </div>
+              <div class="tl-org">
+                Visvesvaraya Technological University · Bengaluru, Karnataka,
+                India
+              </div>
+            </div>
+          </div>
+        </section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+        <!-- EXPERIENCE -->
+        <section class="section reveal" id="experience">
+          <div class="section-head">
+            <div class="eyebrow">Mission log</div>
+            <h2 class="section-title">Experience</h2>
+          </div>
 
-	</body>
+          <div class="timeline">
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-timestamp">[ January 2026 — PRESENT ]</div>
+              <div class="tl-role">Software Engineer</div>
+              <div class="tl-org">
+                TagSkills EdTech Pvt. Ltd. · Bengaluru, Karnataka, India
+              </div>
+              <ul class="tl-bullets">
+                <li>
+                  Delivered 5+ end-to-end platform features using Python,
+                  FastAPI, React, TypeScript, and PostgreSQL across
+                  learner-facing and administrative experiences.
+                </li>
+                <li>
+                  Built and integrated a Retrieval-Augmented Generation
+                  assistant with FastAPI, PostgreSQL (pgvector), and Google
+                  Gemini for context-aware answers from course content.
+                </li>
+                <li>
+                  Developed and integrated 5+ REST API endpoints connecting
+                  frontend workflows to backend services and business logic.
+                </li>
+                <li>
+                  Built reusable React/TypeScript components and assisted
+                  Dockerized deployments on GCP with automated build/release
+                  workflows.
+                </li>
+              </ul>
+              <div class="tl-tags">
+                <span>Python</span><span>FastAPI</span><span>React</span
+                ><span>TypeScript</span><span>PostgreSQL</span><span>GCP</span
+                ><span>RAG</span>
+              </div>
+            </div>
+
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-timestamp">[ August 2024 — September 2025 ]</div>
+              <div class="tl-role">
+                Python Developer <span class="tl-flag">USA</span>
+              </div>
+              <div class="tl-org">
+                Indotronix International Corporation · Richmond, VA, USA
+              </div>
+              <ul class="tl-bullets">
+                <li>
+                  Engineered 5+ REST API endpoints in Python and FastAPI to
+                  automate enterprise provisioning workflows within a 6-person
+                  cross-border Scrum pod.
+                </li>
+                <li>
+                  Designed and optimized PostgreSQL models and queries for
+                  provisioning data, user workflows, and application state.
+                </li>
+                <li>
+                  Configured multi-stage Docker builds, cutting runtime image
+                  size to under 150MB, and automated GCP Cloud Run deployments
+                  via GitHub Actions.
+                </li>
+                <li>
+                  Built an asynchronous regression testing framework in PyTest,
+                  maintaining an 85%+ code coverage standard.
+                </li>
+              </ul>
+              <div class="tl-tags">
+                <span>Python</span><span>FastAPI</span><span>PostgreSQL</span
+                ><span>Docker</span><span>GCP</span><span>GitHub Actions</span
+                ><span>PyTest</span>
+              </div>
+            </div>
+
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-timestamp">[ April 2021 — August 2021 ]</div>
+              <div class="tl-role">Web Development Intern</div>
+              <div class="tl-org">
+                ParvaM ConsulTech Pvt. Ltd. · Bangalore, Karnataka, India
+              </div>
+              <ul class="tl-bullets">
+                <li>
+                  Contributed to responsive web development with HTML, CSS,
+                  JavaScript, PHP, and MySQL for a client-facing business
+                  website.
+                </li>
+                <li>
+                  Implemented frontend UI enhancements and backend CRUD
+                  functionality supporting core workflows.
+                </li>
+                <li>
+                  Participated in testing, debugging, and feature work within an
+                  Agile team using Git-based version control.
+                </li>
+              </ul>
+              <div class="tl-tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span
+                ><span>PHP</span><span>MySQL</span><span>Git</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section reveal" id="projects">
+          <div class="section-head">
+            <div class="eyebrow">Deployed systems</div>
+            <h2 class="section-title">Projects</h2>
+          </div>
+
+          <div class="project-grid">
+            <div class="project-card panel">
+              <span class="br-tr"></span><span class="br-bl"></span>
+              <div class="project-index">SYS_01</div>
+              <div class="project-title">TaskForge</div>
+              <p class="project-desc">
+                A RESTful task management API built with Node.js and Express,
+                featuring JWT-based authentication, role-based authorization,
+                and MongoDB persistence. Implements secure user authentication
+                and ownership-aware CRUD operations for task management.
+              </p>
+              <div class="project-stack">
+                <span>Node.js</span><span>Express.js</span><span>MongoDB</span
+                ><span>JWT</span>
+              </div>
+              <a
+                href="https://github.com/ShishirGururaj/taskflow-backend"
+                class="project-link"
+                >View repo →</a
+              >
+            </div>
+
+            <div class="project-card panel">
+              <span class="br-tr"></span><span class="br-bl"></span>
+              <div class="project-index">SYS_02</div>
+              <div class="project-title">
+                Internet Relay Chat (IRC) application
+              </div>
+              <p class="project-desc">
+                A client-server chat application developed for an
+                Internetworking Protocols course, implementing TCP socket
+                communication and select()-based I/O multiplexing. Supports
+                multiple clients, chat rooms, room switching, private messaging,
+                and event-driven connection management.
+              </p>
+              <div class="project-stack">
+                <span>Python</span><span>TCP Sockets</span
+                ><span>I/O Multiplexing</span
+                ><span>Client-Server Architecture</span>
+              </div>
+              <a
+                href="https://github.com/ShishirGururaj/IRC"
+                class="project-link"
+                >View repo →</a
+              >
+            </div>
+
+            <div class="project-card panel">
+              <span class="br-tr"></span><span class="br-bl"></span>
+              <div class="project-index">SYS_03</div>
+              <div class="project-title">Foodie</div>
+              <p class="project-desc">
+                A database-driven food ordering platform developed as an
+                undergraduate Web Technology Laboratory project. Supports user
+                authentication, restaurant discovery and management, menu
+                management, cart-based ordering, and order history.
+              </p>
+              <div class="project-stack">
+                <span>PHP</span><span>MySQL</span><span>HTML</span
+                ><span>CSS</span><span>JavaScript</span><span>JQuery</span
+                ><span>Bootstrap</span>
+              </div>
+              <a
+                href="https://github.com/ShishirGururaj/Foodie"
+                class="project-link"
+                >View repo →</a
+              >
+            </div>
+
+            <div class="project-card panel">
+              <span class="br-tr"></span><span class="br-bl"></span>
+              <div class="project-index">SYS_04</div>
+              <div class="project-title">YourTutor</div>
+              <p class="project-desc">
+                A web-based platform connecting students and guardians with
+                tutors through tutor discovery and tuition request workflows.
+                Implements multiple user roles, tutor profiles, registration and
+                authentication, tutor search, and database-backed tuition
+                management.
+              </p>
+              <div class="project-stack">
+                <span>PHP</span><span>MySQL</span><span>HTML</span
+                ><span>CSS</span><span>JavaScript</span><span>JQuery</span
+                ><span>Bootstrap</span><span>AJAX</span>
+              </div>
+              <a
+                href="https://github.com/ShishirGururaj/YourTutor"
+                class="project-link"
+                >View repo →</a
+              >
+            </div>
+          </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section reveal" id="skills">
+          <div class="section-head">
+            <div class="eyebrow">Loadout</div>
+            <h2 class="section-title">Skills</h2>
+            <p class="section-sub">
+              Languages, frameworks, and tooling in active rotation.
+            </p>
+          </div>
+
+          <div class="skills-panel panel">
+            <span class="br-tr"></span><span class="br-bl"></span>
+            <div class="skills-row">
+              <div class="skills-label">Languages</div>
+              <div class="chip-row">
+                <span class="chip">Python</span
+                ><span class="chip">TypeScript</span
+                ><span class="chip">JavaScript</span
+                ><span class="chip">SQL</span>
+              </div>
+            </div>
+            <div class="skills-row">
+              <div class="skills-label">Backend</div>
+              <div class="chip-row">
+                <span class="chip">FastAPI</span
+                ><span class="chip">Node.js</span
+                ><span class="chip">REST APIs</span>
+              </div>
+            </div>
+            <div class="skills-row">
+              <div class="skills-label">Frontend</div>
+              <div class="chip-row">
+                <span class="chip">React.js</span><span class="chip">HTML</span
+                ><span class="chip">CSS</span>
+              </div>
+            </div>
+            <div class="skills-row">
+              <div class="skills-label">Databases</div>
+              <div class="chip-row">
+                <span class="chip">PostgreSQL</span
+                ><span class="chip">MySQL</span>
+              </div>
+            </div>
+            <div class="skills-row">
+              <div class="skills-label">Cloud &amp; DevOps</div>
+              <div class="chip-row">
+                <span class="chip">Google Cloud Platform</span
+                ><span class="chip">Docker</span
+                ><span class="chip">GitHub Actions</span
+                ><span class="chip">CI/CD</span>
+              </div>
+            </div>
+            <div class="skills-row">
+              <div class="skills-label">AI Engineering</div>
+              <div class="chip-row">
+                <span class="chip">RAG</span
+                ><span class="chip">LLM Integration</span
+                ><span class="chip">Google Gemini</span>
+              </div>
+            </div>
+            <div class="skills-row">
+              <div class="skills-label">Methodology</div>
+              <div class="chip-row">
+                <span class="chip">Agile / Scrum</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section reveal" id="contact">
+          <div class="contact-panel panel">
+            <span class="br-tr"></span><span class="br-bl"></span>
+            <div>
+              <div class="eyebrow">Comms</div>
+              <h2 class="contact-title">Let's build something.</h2>
+              <p class="contact-desc">
+                Open to full-stack, Cloud, and AI engineering roles. Fastest way
+                to reach me is email — I'll get back to you within a day.
+              </p>
+              <div class="btn-row">
+                <a
+                  href="assets/resume.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn btn-solid"
+                  >View Resume</a
+                >
+                <a href="assets/resume.pdf" download class="btn">Download ↓</a>
+              </div>
+            </div>
+            <div class="contact-list">
+              <a href="mailto:shishirgururaj73@gmail.com"
+                ><span
+                  ><span class="k">Email</span
+                  ><br />shishirgururaj73@gmail.com</span
+                ><span class="arrow">→</span></a
+              >
+              <a href="#" target="_blank" rel="noopener"
+                ><span
+                  ><span class="k">LinkedIn</span
+                  ><br />linkedin.com/in/shishir-gururaj</span
+                ><span class="arrow">→</span></a
+              >
+              <a href="#" target="_blank" rel="noopener"
+                ><span
+                  ><span class="k">GitHub</span
+                  ><br />github.com/shishirgururaj</span
+                ><span class="arrow">→</span></a
+              >
+            </div>
+          </div>
+        </section>
+
+        <footer>
+          © 2026 SHISHIR GURURAJ — BUILT WITH RAW HTML/CSS/JS — BENGALURU, INDIA
+        </footer>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
 </html>
