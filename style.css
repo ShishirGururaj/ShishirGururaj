@@ -1077,6 +1077,7 @@ h3 {
 
 /* ---------- contact ---------- */
 .contact-panel {
+  margin-top: 25px;
   padding: 48px;
   display: grid;
   grid-template-columns: 1.1fr 0.9fr;
