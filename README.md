@@ -4,9 +4,7 @@
 
 I build **scalable, production-minded software** across the stack - from intuitive React interfaces and robust Python APIs to PostgreSQL databases, cloud infrastructure, and AI-powered applications.
 
-[![View Resume](https://img.shields.io/badge/View_Resume-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://github.com/ShishirGururaj/ShishirGururaj/blob/main/assets/Shishir_G_Resume.pdf)
-
-[![Download Resume](https://img.shields.io/badge/Download_Resume-PDF-green?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/ShishirGururaj/ShishirGururaj/main/assets/Shishir_G_Resume.pdf)
+[![View Resume](https://img.shields.io/badge/View_Resume-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://github.com/ShishirGururaj/ShishirGururaj/blob/main/assets/Shishir_G_Resume.pdf) [![Download Resume](https://img.shields.io/badge/Download_Resume-PDF-green?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/ShishirGururaj/ShishirGururaj/main/assets/Shishir_G_Resume.pdf)
 
 ---
 
