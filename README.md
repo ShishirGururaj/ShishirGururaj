@@ -12,7 +12,7 @@ I build **scalable, production-minded software** across the stack - from intuiti
 
 ### 🌐 Full-Stack Applications
 
-Designing and building modern web applications with **React, TypeScript, Python, Hono, and FastAPI**.
+Designing and building modern web applications with **React, TypeScript, Python, and FastAPI**.
 
 ### ⚙️ Backend & APIs
 
